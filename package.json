@@ -1,0 +1,35 @@
+{
+  "name": "bili-sass-import-tilde-example",
+  "private": "true",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "scripts": {
+    "start": "vue serve src/Example.vue",
+    "build": "bili --plugins.vue --format=cjs,esm,umd --module-name=Example"
+  },
+  "dependencies": {
+    "bulma": "^0.7.4",
+    "vue": "2"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "devDependencies": {
+    "@babel/core": "7",
+    "@vue/cli-service": "3",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "babel-preset-vue": "^2.0.2",
+    "bili": "^4",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.11.0",
+    "rollup-plugin-vue": "^4.7.2",
+    "sass-loader": "^7.1.0",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "2"
+  }
+}
