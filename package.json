@@ -18,7 +18,7 @@
   ],
   "devDependencies": {
     "@babel/core": "7",
-    "@vue/cli-service": "3",
+    "@vue/cli-service": "5",
     "@vue/eslint-config-airbnb": "^4.0.0",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
@@ -27,7 +27,7 @@
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.11.0",
-    "rollup-plugin-vue": "^4.7.2",
+    "rollup-plugin-vue": "^6.0.0",
     "sass-loader": "^7.1.0",
     "vue-loader": "^15.7.0",
     "vue-template-compiler": "2"
